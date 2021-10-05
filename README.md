@@ -1,3 +1,11 @@
+# About This Site
+This is a educational website.
+
+* From this website you can know how to learn dance
+* I tried to create a website to train dance for some people who can not came outside for tution
+* I used react for make this website
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

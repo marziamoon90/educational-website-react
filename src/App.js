@@ -5,10 +5,9 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Classes from './components/Classes/Classes'
-import Services from './components/Services/Services';
 import About from './components/About/About';
 import Notfound from './components/NotFound/Notfound';
-import JoinClass from './components/JoinClass/JoinClass';
+import Instructor from './components/Instructor/Instructor';
 
 function App() {
   return (
@@ -26,11 +25,8 @@ function App() {
             <Route path="/classes">
               <Classes></Classes>
             </Route>
-            <Route exact path="/class/:classId">
-              <JoinClass></JoinClass>
-            </Route>
-            <Route path='/services'>
-              <Services></Services>
+            <Route path='/instructor'>
+              <Instructor></Instructor>
             </Route>
             <Route path='/about'>
               <About></About>

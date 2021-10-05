@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Class = props => {
-    console.log(props.data);
+    // console.log(props.data);
     const { form, img, cost, instruction, id } = props.data;
 
 
@@ -19,7 +19,7 @@ const Class = props => {
                 <Card.Text>
                     {instruction}
                 </Card.Text>
-                <NavLink to={`/class/${id}`} className="bg-info px-4 py-2 text-decoration-none fs-5 text-light rounded mx-3">Join Class</NavLink>
+                <NavLink to="/instructor" className="bg-info px-4 py-2 text-decoration-none fs-5 text-light rounded mx-3">Join Class</NavLink>
             </Card.Body>
         </Card>
     );

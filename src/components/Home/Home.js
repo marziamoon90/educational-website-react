@@ -18,6 +18,8 @@ const Home = () => {
                     <img src="https://www.active.com/Assets/active-family/580/Dance+Class/ballet.jpg" alt="" />
                 </div>
             </div>
+
+
         </div >
     );
 };

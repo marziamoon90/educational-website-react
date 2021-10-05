@@ -1,5 +1,4 @@
 import React from 'react';
-
 import img from '../../images/color.steps.jpg'
 import logo from '../../images/logo.jpg'
 import { NavLink } from 'react-router-dom';
@@ -24,7 +23,7 @@ const Header = () => {
                 <Nav>
                     <NavLink to='/home' className="bg-info px-4 py-2 text-decoration-none fs-5 text-light rounded mx-3">Home</NavLink>
                     <NavLink to='/classes' className="bg-info px-4 py-2 text-decoration-none fs-5 text-light rounded mx-3">Classes</NavLink>
-                    <NavLink to='/services' className="bg-info px-4 py-2 text-decoration-none fs-5 text-light rounded mx-3">Services</NavLink>
+                    <NavLink to='/instructor' className="bg-info px-4 py-2 text-decoration-none fs-5 text-light rounded mx-3">Instructor</NavLink>
                     <NavLink to='/about' className="bg-info px-4 py-2 text-decoration-none fs-5 text-light rounded mx-3">About</NavLink>
                 </Nav>
 
